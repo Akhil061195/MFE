@@ -1,1 +1,20 @@
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+.content-area {
+  min-height: calc(100vh - 140px); /* Adjust based on header/footer height */
+  padding: 16px;
+}
+
+.app-header, .app-footer {
+  background-color: #1976d2;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
 /* You can add global styles to this file, and also import other style files */
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
